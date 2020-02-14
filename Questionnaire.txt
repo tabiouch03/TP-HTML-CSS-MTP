@@ -1,0 +1,42 @@
+1)
+balise dans laquel on place les données
+
+
+2)
+...
+
+
+3)
+head body header
+
+
+4)
+c'est ce qui permet de gerer le dynamisme du fichier css.
+
+
+5)
+...
+
+
+6)
+Le head va contenir toute les metadonnees (n'apparait pas sur le site web)
+et le body le corps du site web ( tout le contenu qui fera afficher )
+
+
+7)
+I dont know
+
+
+8)
+le client envoi une requete au serveur pour recuperer une page html -> le serveur valide la presence du fichier html et le renvoi au client sur son navigateur.
+
+
+
+9)
+CTRL + : raccourci
+<!-- --> pour HTML
+/* */ pour CSS
+
+10)
+
+?
