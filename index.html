@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <!-- Le head contient toutes mes meta données et les importation de library ou autres -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -9,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald|Pacifico&display=swap" rel="stylesheet">
   <title>Fabweb</title>
 </head>
+<!-- Mon header va contenir ma barre de navigation et les div a l'interieur serviront a regrouper les liens -->
 <header>
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center text-center">
@@ -27,12 +29,13 @@
     </nav>
   </div>
 </header>
-
+<!-- Mon body va afficher tout le corps de mon site web j'ai utiliser bootstrap pour avoir des container et ainsi avoir une grille -->
 <body>
   <div class="container text-center mt-5">
     <h1>La ville de <span class="text-danger">Nîmes</span> , <span class="text-danger">Spectacles</span> et <span
         class="text-danger">Musique</span> dans l'Arene.</h1>
   </div>
+  <!-- Avec cette div je fait en sorte que toutes les sous div contenu dans celle ci soit diriger par ma div principal -->
   <div class="container d-flex justify-content-center mt-4">
     <div class="card" style="width: 40rem;">
       <img class="rounded" src="/concert.jpg" alt="Concert sur Nimes">
@@ -45,7 +48,7 @@
       </div>
     </div>
   </div>
-
+<!-- Mon bas de page -->
   <footer class="page-footer mt-4">
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
       <a class="text-danger" href="https://mdbootstrap.com/education/bootstrap/"> fabweb.my</a>
